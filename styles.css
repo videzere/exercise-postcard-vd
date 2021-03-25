@@ -1,10 +1,11 @@
-* {
+/* * {
 	border: 1px dashed red;
 	min-height: 10px;
-}
+} */
 body {
 	background: black;
-	font-family: "Handlee";
+	font-family: "Handlee", cursive;
+	font-weight: 900;
 }
 p {
 	color: black;
@@ -33,10 +34,11 @@ p {
 img {
 	height: 50px;
 	width: 50px;
+	margin: 0px;
 }
 h1 {
 	height: 50px;
-	width: 100%;
+	width: 85%;
 	margin: 0px;
 	padding-top: 10px;
 }
@@ -55,9 +57,11 @@ input {
 	border-bottom: 1px solid silver;
 	font: message-box;
 	font-family: "Handlee", cursive;
+	font-weight: 900;
 }
 button {
 	border: none;
+	border-bottom: 1px solid slategrey;
 	background-color: silver;
 	padding: 1%;
 	font-family: "Handlee", cursive;
